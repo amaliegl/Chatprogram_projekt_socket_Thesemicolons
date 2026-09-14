@@ -34,7 +34,6 @@ public class TcpClient {
                 }
             // Eksempelkommando i format TYPE|TARGET|PAYLOAD
             writer.println("LOGIN|user1|");
-            String response = reader.readLine();
             if (response != null) {
                System.out.println("Serverbesked: " + response);
             }
